@@ -1,0 +1,28 @@
+﻿Build started 10/29/2014 11:02:55 AM.
+     1>Project "Z:\Win7Files\Documents\Visual Studio 2010\Projects\gorwal4a\gorwal4a\gorwal4a.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\gorwal4a.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt p4.cpp
+         p4.cpp
+     1>z:\win7files\documents\visual studio 2010\projects\gorwal4a\gorwal4a\p4.cpp(94): warning C4018: '<' : signed/unsigned mismatch
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\gorwal4a.exe.embed.manifest.res" Debug\gorwal4a_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Win7Files\Documents\Visual Studio 2010\Projects\gorwal4a\Debug\gorwal4a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gorwal4a.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Win7Files\Documents\Visual Studio 2010\Projects\gorwal4a\Debug\gorwal4a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Win7Files\Documents\Visual Studio 2010\Projects\gorwal4a\Debug\gorwal4a.lib" /MACHINE:X86 Debug\gorwal4a.exe.embed.manifest.res
+         Debug\p4.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\gorwal4a.exe.embed.manifest" /manifest Debug\gorwal4a.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\gorwal4a.exe.embed.manifest.res" Debug\gorwal4a_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Win7Files\Documents\Visual Studio 2010\Projects\gorwal4a\Debug\gorwal4a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gorwal4a.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Win7Files\Documents\Visual Studio 2010\Projects\gorwal4a\Debug\gorwal4a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Win7Files\Documents\Visual Studio 2010\Projects\gorwal4a\Debug\gorwal4a.lib" /MACHINE:X86 Debug\gorwal4a.exe.embed.manifest.res
+         Debug\p4.obj
+         gorwal4a.vcxproj -> Z:\Win7Files\Documents\Visual Studio 2010\Projects\gorwal4a\Debug\gorwal4a.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\gorwal4a.unsuccessfulbuild".
+         Touching "Debug\gorwal4a.lastbuildstate".
+     1>Done Building Project "Z:\Win7Files\Documents\Visual Studio 2010\Projects\gorwal4a\gorwal4a\gorwal4a.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.10
