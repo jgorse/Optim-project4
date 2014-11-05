@@ -6,6 +6,9 @@ board::board(int sqSize) : value(BoardSize+1,BoardSize+1)
 // Board constructor
 {
    clear();
+   conf_rows.resize(BoardSize+1,BoardSize+1);
+	conf_cols.resize(BoardSize+1,BoardSize+1);
+	conf_sq.resize(BoardSize+1,BoardSize+1);
 }
 
 void board::clear()
@@ -123,8 +126,7 @@ void board::print()
 ValueType board::setCell(int i, int j, int k)
 {
 	value[i][j] = k;
-
-
+	updateConflicts(i,j,k,true);
 	return value[i][j];
 }
 
@@ -175,7 +177,7 @@ void board::printConflicts()
 		{
 			cout<< "| ";
 
-			if(conf_squares[i][j])
+			if(conf_sq[i][j])
 				cout<<"T";
 			else
 				cout<<"F";
@@ -209,5 +211,7 @@ bool board::isSolved()
 
 void board::updateConflicts(int i, int j, int value, bool set)
 {
-
+	conf_rows[i][value] = set;
+	conf_cols[j][value] = set;
+	conf_sq[squareNumber(i,j)][value] = set;
 }

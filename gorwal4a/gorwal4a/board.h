@@ -45,6 +45,9 @@ class board
       // dimension, i.e., they are each (BoardSize+1) * (BoardSize+1)
 
       matrix<ValueType> value;
+	  matrix<bool> conf_rows;
+	  matrix<bool> conf_cols;
+	  matrix<bool> conf_sq;
 };
 #endif //BOARD_H
 
