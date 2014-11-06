@@ -31,6 +31,11 @@ int main()
 			b1.initialize(fin);
 			b1.print();
 			b1.printConflicts();
+
+			cout<<"\n\nTest: remove the '8' in the first row, then update and print board/conflicts\n";
+			b1.clearCell(1, 5);
+			b1.print();
+			b1.printConflicts();
 		}
 	}
 	catch  (indexRangeError &ex)

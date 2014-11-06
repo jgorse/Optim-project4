@@ -1,31 +1,27 @@
-﻿Build started 11/5/2014 11:29:14 AM.
-     1>Project "Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\gorwal4a\gorwal4a.vcxproj" on node 2 (build target(s)).
+﻿Build started 11/6/2014 5:11:03 PM.
+     1>Project "C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\gorwal4a\gorwal4a.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Debug\gorwal4a.unsuccessfulbuild".
+         Creating "Debug\gorwal4a.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt board.cpp
-         board.cpp
-     1>z:\win7files\documents\github\optim-project4\gorwal4a\gorwal4a\board.cpp(210): warning C4715: 'board::isSolved' : not all control paths return a value
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\gorwal4a.exe.embed.manifest.res" Debug\gorwal4a_manifest.rc 
+         All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gorwal4a.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.lib" /MACHINE:X86 Debug\gorwal4a.exe.embed.manifest.res
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\Debug\gorwal4a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gorwal4a.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\Debug\gorwal4a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\Debug\gorwal4a.lib" /MACHINE:X86 Debug\gorwal4a.exe.embed.manifest.res
          Debug\board.obj
          Debug\main.obj
-         LINK : Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.exe not found or not built by the last incremental link; performing full link
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\gorwal4a.exe.embed.manifest" /manifest Debug\gorwal4a.exe.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\gorwal4a.exe.embed.manifest.res" Debug\gorwal4a_manifest.rc 
+         All outputs are up-to-date.
        LinkEmbedManifest:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gorwal4a.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.lib" /MACHINE:X86 Debug\gorwal4a.exe.embed.manifest.res
-         Debug\board.obj
-         Debug\main.obj
-         gorwal4a.vcxproj -> Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.exe
+         All outputs are up-to-date.
+         gorwal4a.vcxproj -> C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\Debug\gorwal4a.exe
        FinalizeBuildStatus:
          Deleting file "Debug\gorwal4a.unsuccessfulbuild".
          Touching "Debug\gorwal4a.lastbuildstate".
-     1>Done Building Project "Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\gorwal4a\gorwal4a.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\gorwal4a\gorwal4a.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:14.51
+Time Elapsed 00:00:02.40

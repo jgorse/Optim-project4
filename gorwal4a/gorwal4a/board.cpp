@@ -132,61 +132,65 @@ ValueType board::setCell(int i, int j, int k)
 
 void board::printConflicts()
 {
-	cout<<"Conflict Rows-------------------------------\n";
-	for(int i = 0; i<BoardSize; i++)
+	cout<<"\n\n---------Conflict Rows---------------\n";
+	for(int i = 1; i <= BoardSize; i++)
 	{
-		cout<<"--------------------------------------------\n";
-		for(int j = 0; j < BoardSize; j++)
+		cout<<"-------------------------------------\n";
+		for(int j = 1; j <= BoardSize; j++)
 		{
 			cout<< "| ";
 
 			if(conf_rows[i][j])
-				cout<<"T";
+				cout<<"T ";
 			else
-				cout<<"F";
+				cout<<"F ";
 			
-			cout<<" |";
+			
 		}
-		cout<<"\n--------------------------------------------\n";
-	}
+		cout<<"|\n";
 
-	cout<<"\n\nConflict Columns-------------------------------\n";
-	for(int i = 0; i<BoardSize; i++)
+	}
+	cout<<"-------------------------------------\n\n";
+	
+	cout<<"\n\n---------Conflict Columns------------\n";
+	for(int i = 1; i <= BoardSize; i++)
 	{
-		cout<<"--------------------------------------------\n";
-		for(int j = 0; j < BoardSize; j++)
+		cout<<"-------------------------------------\n";
+		for(int j = 1; j <= BoardSize; j++)
 		{
 			cout<< "| ";
 
 			if(conf_cols[i][j])
-				cout<<"T";
+				cout<<"T ";
 			else
-				cout<<"F";
+				cout<<"F ";
 			
-			cout<<" |";
+			
 		}
-		cout<<"\n--------------------------------------------\n";
+		cout<<"|\n";
+
 	}
+	cout<<"-------------------------------------\n\n";
 
-
-	cout<<"Conflict Squares-------------------------------\n";
-	for(int i = 0; i<BoardSize; i++)
+	cout<<"\n\n---------Conflict Squares------------\n";
+	for(int i = 1; i <= BoardSize; i++)
 	{
-		cout<<"--------------------------------------------\n";
-		for(int j = 0; j < BoardSize; j++)
+		cout<<"-------------------------------------\n";
+		for(int j = 1; j <= BoardSize; j++)
 		{
 			cout<< "| ";
 
 			if(conf_sq[i][j])
-				cout<<"T";
+				cout<<"T ";
 			else
-				cout<<"F";
+				cout<<"F ";
 			
-			cout<<" |";
+			
 		}
-		cout<<"\n--------------------------------------------\n";
-	}
+		cout<<"|\n";
 
+	}
+	cout<<"-------------------------------------\n\n";
 
 
 
