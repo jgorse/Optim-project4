@@ -1,14 +1,17 @@
-﻿Build started 11/6/2014 5:11:03 PM.
-     1>Project "C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\gorwal4a\gorwal4a.vcxproj" on node 2 (build target(s)).
+﻿Build started 11/6/2014 9:10:18 PM.
+     1>Project "Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\gorwal4a\gorwal4a.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\gorwal4a.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt board.cpp main.cpp
          main.cpp
+         board.cpp
+         Generating Code...
+     1>z:\win7files\documents\github\optim-project4\gorwal4a\gorwal4a\board.cpp(214): warning C4715: 'board::isSolved' : not all control paths return a value
        ManifestResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\gorwal4a.exe.embed.manifest.res" Debug\gorwal4a_manifest.rc 
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\Debug\gorwal4a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gorwal4a.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\Debug\gorwal4a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\Debug\gorwal4a.lib" /MACHINE:X86 Debug\gorwal4a.exe.embed.manifest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gorwal4a.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.lib" /MACHINE:X86 Debug\gorwal4a.exe.embed.manifest.res
          Debug\board.obj
          Debug\main.obj
        Manifest:
@@ -16,12 +19,12 @@
          All outputs are up-to-date.
        LinkEmbedManifest:
          All outputs are up-to-date.
-         gorwal4a.vcxproj -> C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\Debug\gorwal4a.exe
+         gorwal4a.vcxproj -> Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\Debug\gorwal4a.exe
        FinalizeBuildStatus:
          Deleting file "Debug\gorwal4a.unsuccessfulbuild".
          Touching "Debug\gorwal4a.lastbuildstate".
-     1>Done Building Project "C:\Users\Joe\Dropbox\College\2014-2 Fall\Optimization Methods\Optim-project4\gorwal4a\gorwal4a\gorwal4a.vcxproj" (build target(s)).
+     1>Done Building Project "Z:\Win7Files\Documents\GitHub\Optim-project4\gorwal4a\gorwal4a\gorwal4a.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.40
+Time Elapsed 00:00:07.75
