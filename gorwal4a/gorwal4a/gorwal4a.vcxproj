@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{48BB0ABF-650E-42C4-8543-D75905E97103}</ProjectGuid>
+    <ProjectGuid>{8CFD07CC-DD0B-40CB-980F-2EA7AAB15744}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>gorwal4a</RootNamespace>
   </PropertyGroup>
@@ -74,13 +74,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="board.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="board.h" />
     <ClInclude Include="d_except.h" />
     <ClInclude Include="d_matrix.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="board.cpp" />
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
