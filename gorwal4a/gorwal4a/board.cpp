@@ -243,12 +243,12 @@ bool board::solve(int i, int j)
 		{
 			int possible = available[x];
 			setCell(i, j, possible);
-			print();
+			//print();
 			if( solve(i, j) )
 				return true;
 
 			clearCell(i, j);
-			print();
+			//print();
 		}
 		return false;
 		
@@ -259,7 +259,7 @@ bool board::solve(int i, int j)
 void board::getNextBlank(int *i, int *j)
 {
 	int tempi, tempj, leastAvailable = 9;
-
+	vector<int> available;
 
 	for(tempi = 1; tempi < 10; tempi++)
 	{
@@ -267,7 +267,7 @@ void board::getNextBlank(int *i, int *j)
 		{
 			if(isBlank(tempi, tempj))
 			{
-				vector<int> available = getAvailable(tempi, tempj);
+				available = getAvailable(tempi, tempj);
 				int numAvailable = available.size();
 				if( numAvailable < leastAvailable)
 				{
@@ -284,74 +284,13 @@ void board::getNextBlank(int *i, int *j)
 
 vector<int> board::getAvailable(int i, int j)
 {
-	//Get 3 vectors (row, Col, Sq) with the available numbers for the cell (i, j)
-		vector<int> nonConfRow;
-
-		for(int x = 1; x <= BoardSize; x++)
-			if(conf_rows[i][x] == false)
-				nonConfRow.push_back(x);
-
-		vector<int> nonConfCol;
-
-		for(int x = 1; x <= BoardSize; x++)
-			if(conf_cols[j][x] == false)
-				nonConfCol.push_back(x);
-
-
-		vector<int> nonConfSq;
-		int square = getSquareNumber(i, j);
-		for(int x = 1; x <= BoardSize; x++)
-			if(conf_sq[square][x] == false)
-				nonConfSq.push_back(x);
-
 		vector<int> available;
-		for(int i=1; i<10; i++)
+		int square = squareNumber(i, j);
+		for(int x=1; x<10; x++)
 		{
-			if( find(nonConfRow.begin(), nonConfRow.end(), i) != nonConfRow.end() )
-				if(	find(nonConfCol.begin(), nonConfCol.end(), i) != nonConfCol.end() )
-					if(	find(nonConfSq.begin(),  nonConfSq.end(), i)  != nonConfSq.end() )
-						available.push_back(i);
+			if( !conf_rows[i][x] && !conf_cols[j][x] &&  !conf_sq[square][x])
+				available.push_back(x);
 		}
 		return available;
 }
 
-int board::getSquareNumber(int i, int j)
-{
-	int square;
-
-	if(i <= 3)
-	{
-		if(j <= 3)
-			return 1;
-
-		if (j <= 6)
-			return 2;
-
-		if (j <= 9)
-			return 3;
-	}
-	if(i <= 6)
-	{
-		if(j <= 3)
-			return 4;
-
-		if (j <= 6)
-			return 5;
-
-		if (j <= 9)
-			return 6;
-	}
-	if(i <= 9)
-	{
-		if(j <= 3)
-			return 7;
-
-		if (j <= 6)
-			return 8;
-
-		if (j <= 9)
-			return 9;
-	}
-
-	return square;
-}
