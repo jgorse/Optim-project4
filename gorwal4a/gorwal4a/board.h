@@ -39,6 +39,11 @@ class board
 	  bool isSolved();
 	  void clearCell(int i, int j);
 	  void updateConflicts(int i, int j, int value, bool set);
+	  bool solve(int i, int j);
+	  vector<int> getAvailable(int i, int j);
+	  int getSquareNumber(int i, int j);
+	  void getNextBlank(int *i, int *j);
+	  int numIterations;
    private:
 
       // The following matrices go from 1 to BoardSize in each

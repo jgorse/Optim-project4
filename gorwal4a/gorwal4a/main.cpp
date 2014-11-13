@@ -29,13 +29,11 @@ int main()
 		while (fin && fin.peek() != 'Z')
 		{
 			b1.initialize(fin);
+			b1.solve(1, 1);
 			b1.print();
 			b1.printConflicts();
+			cout<<"This took "<<b1.numIterations<<" calls to solve()\n";
 
-			cout<<"\n\nTest: remove the '8' in the first row, then update and print board/conflicts\n";
-			b1.clearCell(1, 5);
-			b1.print();
-			b1.printConflicts();
 		}
 	}
 	catch  (indexRangeError &ex)
